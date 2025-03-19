@@ -14,24 +14,24 @@ export function salesOnClick() {
     
 
     const randomSaleHTML = `
+        <div><h3 class="title__sub">Today's Feature Combo:  ONLY $9.99!</h3></div>
         <div class="random-sale">
-            <h3>Today's Special Combo</h3>
-        <div class="ice-cream-card">
-            <img src="${randomIceCream.img}" alt="${randomIceCream.name}">
-            <div class="ice-cream-name">
-                ${randomIceCream.name}<br>
-                ${randomIceCream.description}
-                </div>          
-            </div> 
-        <div class="cookie-card">
-            <img src="${randomCookie.img}" alt="${randomCookie.name}">
-             <div class="cookie-name">
-                 ${randomCookie.name}<br>
-                 ${randomCookie.description}
-                 </div>          
-            </div> 
-            <p class = "random-price">Today's Special ONLY $9.99</p>
-            </div>
+            <div class="ice-cream-card">
+                <img src="${randomIceCream.img}" alt="${randomIceCream.name}">
+                <div class="ice-cream-name">
+                    <span class="icecream__title">${randomIceCream.name}</span><br>
+                    <span class="icecream__descr">${randomIceCream.description}</span>
+                    </div>          
+                </div>
+            <div class="cookie-card">
+                <img src="${randomCookie.img}" alt="${randomCookie.name}">
+                <div class="cookie-name">
+                    <span class="cookie__title">${randomCookie.name}</span><br>
+                    <span class="cookie__descr">${randomCookie.description}</span>
+                    </div>          
+                </div> 
+                
+        </div>
 
 `;
 return randomSaleHTML

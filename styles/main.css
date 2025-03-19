@@ -23,9 +23,28 @@ body {
     color: rgb(156, 35, 156);
 }
 
-#container__special {
-    margin-left: 100px;
+.random-sale {
+    display: flex;
+    justify-content: center;
 
+}
+
+#container__special {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: fit-content;
+    
+}
+
+#comboButton {
+    font-size: 125px;
+    padding: 25px;
+    color: green;
+    padding: 10px 20px;
+    
+    
 }
 
 .title__sub {
@@ -36,6 +55,7 @@ body {
 }
 
 #container {
+    margin-top: 50px;
     display: flex;
     justify-content: space-evenly;
 }   
@@ -73,8 +93,6 @@ body {
     padding: 20px;
 }
 
-.cookie-info {
-}
 
 .img__cookie {
     width: 400px;
