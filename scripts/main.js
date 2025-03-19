@@ -1,6 +1,6 @@
 import { createIceCream } from "./iceCream.js";
 import { createCookies } from "./cookies.js";
-
+import { database } from "./database.js"
 
 const cookieHTML = createCookies(database)
 const cookieContainer = document.querySelector('#cookie-card')
