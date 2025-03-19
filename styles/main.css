@@ -46,6 +46,10 @@ body {
     font-family: "Happy Monkey";
 }
 
+.cookie__description {
+    font-style: italic;
+}
+
 /* ################## */
 /* ##### I C E ###### */
 /* ### C R E A M #### */
@@ -68,4 +72,8 @@ body {
 
 .icecream__name {
     font-family: "Happy Monkey";
+}
+
+.icecream__description {
+    font-style: italic;
 }
