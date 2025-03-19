@@ -1,14 +1,18 @@
 import { database } from "./database.js";
 
 export const createCookies = (database) => {
+
+    const sortedCookies = [...database.cookies].sort((a, b) =>
+        a.name.localeCompare(b.name)
+);
     let cookieHTML = '';
-    for (let i = 0; i < database.cookies.length; i++) {
+    for (let i = 0; i < sortedCookies.length; i++) {
         cookieHTML += `
             <div class= "cookie-card">
-                <img src=${database.cookies[i].img} alt=${database.cookies[i].name}}
+                <img src=${sortedCookies[i].img} alt=${sortedCookies[i].name}}
              <div class="cookie-name">
-             ${database.cookies[i].name}<br>
-             ${database.cookies[i].description}
+             ${sortedCookies[i].name}<br>
+             ${sortedCookies[i].description}
              </div>
              </div>
              

@@ -1,14 +1,19 @@
 import { database } from "./database.js";
 
 export const createIceCream = (database) => {
+
+    const sortedIceCream = [...database.iceCream].sort((a, b) =>
+        a.name.localeCompare(b.name)
+);
+
     let iceCreamHTML = '';
-    for (let i = 0; i < database.iceCream.length; i++) {
+    for (let i = 0; i < sortedIceCream.length; i++) {
         iceCreamHTML += `
             <div class= "ice-cream-card">
-                <img src=${database.iceCream[i].img} alt=${database.iceCream[i].name}}
+                <img src=${sortedIceCream[i].img} alt=${sortedIceCream[i].name}}
              <div class="ice-cream-name">
-             ${database.iceCream[i].name}<br>
-             ${database.iceCream[i].description}
+             ${sortedIceCream[i].name}<br>
+             ${sortedIceCream[i].description}
              </div>
             </div>
     
