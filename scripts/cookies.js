@@ -12,7 +12,8 @@ export const createCookies = (database) => {
                 <img class="img__cookie" src="${sortedCookies[i].img}" alt="${sortedCookies[i].name}">
              <div class="cookie-info">
              <span class="cookie__title">${sortedCookies[i].name}</span><br>
-             <span class="cookie__descr">${sortedCookies[i].description}</span>
+             <span class="cookie__descr">${sortedCookies[i].description}</span><br>
+             <button class="btn">Add To Cart</button>
              </div>
              </div>
              

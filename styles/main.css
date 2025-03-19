@@ -7,25 +7,50 @@ body {
     font-family: "Happy Monkey", system-ui;
     font-weight: 400;
     font-style: normal;
-  }
+}
 
   .raleway-dots-regular {
     font-family: "Raleway Dots", sans-serif;
     font-weight: 400;
     font-style: normal;
-  }
+}
   
-  
+
 #title {
     font-size: 200px;
     text-align: center;
     font-family: "Raleway Dots";
     color: rgb(156, 35, 156);
 }
+
+#container__special {
+    margin-left: 100px;
+
+}
+
+.title__sub {
+    font-size: 100px;
+    color: rgb(170, 6, 6);
+    text-align: center;
+    font-family: "Happy Monkey";
+}
+
 #container {
     display: flex;
     justify-content: space-evenly;
 }   
+
+.btn {
+    margin: 50px 0;
+    font-size: 50px;
+    padding: 10px 20px;
+    font-family: "Happy Monkey", system-ui;
+}
+
+
+/* ##################### */
+/* ### C O O K I E S ### */
+/* ##################### */
 
 #container__cookies {
     border: 8px solid black;
@@ -94,10 +119,6 @@ body {
     
 }
 
-.ice-cream-info {
-    
-}
-
 .img__icecream {
     width: 400px;
     margin-right: 100px;
@@ -112,3 +133,10 @@ body {
     font-size: 50px;
     font-style: italic;
 }
+
+
+/* ################ */
+/* ### C A R T ###  */
+/* ################ */
+
+"container__cart">
