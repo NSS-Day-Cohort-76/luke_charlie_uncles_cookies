@@ -1,0 +1,71 @@
+body {
+    background: beige;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.happy-monkey-regular {
+    font-family: "Happy Monkey", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .raleway-dots-regular {
+    font-family: "Raleway Dots", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  
+#title {
+    font-size: 200px;
+    text-align: center;
+    font-family: "Raleway Dots";
+    color: rgb(156, 35, 156);
+}
+#container {
+    display: flex;
+    justify-content: space-evenly;
+}   
+
+#container__cookies {
+    border: 5px solid black;
+    padding: 20px;
+}
+
+#title__cookies {
+    font-size: 75px;
+    text-align: center;
+    font-family: "Happy Monkey";
+}
+
+.cookie__item {
+    border: 5px dotted rgb(112, 202, 255);
+}
+
+.cookie__name {
+    font-family: "Happy Monkey";
+}
+
+/* ################## */
+/* ##### I C E ###### */
+/* ### C R E A M #### */
+/* ################## */
+
+#container__icecream {
+    border: 5px solid black;
+    padding: 20px;
+}
+
+#title__icecream {
+    font-size: 75px;
+    text-align: center;
+    font-family: "Happy Monkey";
+}
+
+.icecream__item {
+    border: 5px dashed rgb(255, 120, 228);
+}
+
+.icecream__name {
+    font-family: "Happy Monkey";
+}
