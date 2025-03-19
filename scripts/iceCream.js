@@ -10,7 +10,7 @@ export const createIceCream = (database) => {
     for (let i = 0; i < sortedIceCream.length; i++) {
         iceCreamHTML += `
             <div class= "ice-cream-card">
-                <img src=${sortedIceCream[i].img} alt=${sortedIceCream[i].name}}
+                <img src="${sortedIceCream[i].img}" alt="${sortedIceCream[i].name}">
              <div class="ice-cream-name">
              ${sortedIceCream[i].name}<br>
              ${sortedIceCream[i].description}

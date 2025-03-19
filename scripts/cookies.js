@@ -9,7 +9,7 @@ export const createCookies = (database) => {
     for (let i = 0; i < sortedCookies.length; i++) {
         cookieHTML += `
             <div class= "cookie-card">
-                <img src=${sortedCookies[i].img} alt=${sortedCookies[i].name}}
+                <img src="${sortedCookies[i].img}" alt="${sortedCookies[i].name}"
              <div class="cookie-name">
              ${sortedCookies[i].name}<br>
              ${sortedCookies[i].description}
