@@ -7,46 +7,88 @@ body {
     font-family: "Happy Monkey", system-ui;
     font-weight: 400;
     font-style: normal;
-  }
+}
 
   .raleway-dots-regular {
     font-family: "Raleway Dots", sans-serif;
     font-weight: 400;
     font-style: normal;
-  }
+}
   
-  
+
 #title {
     font-size: 200px;
     text-align: center;
     font-family: "Raleway Dots";
     color: rgb(156, 35, 156);
 }
+
+#container__special {
+    margin-left: 100px;
+
+}
+
+.title__sub {
+    font-size: 100px;
+    color: rgb(170, 6, 6);
+    text-align: center;
+    font-family: "Happy Monkey";
+}
+
 #container {
     display: flex;
     justify-content: space-evenly;
 }   
 
+.btn {
+    margin: 50px 0;
+    font-size: 50px;
+    padding: 10px 20px;
+    font-family: "Happy Monkey", system-ui;
+}
+
+
+/* ##################### */
+/* ### C O O K I E S ### */
+/* ##################### */
+
 #container__cookies {
-    border: 5px solid black;
+    border: 8px solid black;
     padding: 20px;
+    display: flex;
+    flex-direction: column;
 }
 
 #title__cookies {
-    font-size: 75px;
+    font-size: 100px;
     text-align: center;
     font-family: "Happy Monkey";
 }
 
-.cookie__item {
-    border: 5px dotted rgb(112, 202, 255);
+.cookie-card {
+    border: 8px dotted rgb(140, 214, 243);
+    margin: 15px 5px;
+    display: flex;
+    max-width: 1500px;
+    padding: 20px;
 }
 
-.cookie__name {
+.cookie-info {
+}
+
+.img__cookie {
+    width: 400px;
+    margin-right: 100px;
+}
+
+.cookie__title {
+    font-size: 75px;
     font-family: "Happy Monkey";
 }
 
-.cookie__description {
+.cookie__descr {
+    text-align: center;
+    font-size: 50px;
     font-style: italic;
 }
 
@@ -56,24 +98,47 @@ body {
 /* ################## */
 
 #container__icecream {
-    border: 5px solid black;
-    padding: 20px;
+    border: 8px solid black;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
 }
 
 #title__icecream {
-    font-size: 75px;
+    font-size: 100px;
     text-align: center;
     font-family: "Happy Monkey";
 }
 
-.icecream__item {
-    border: 5px dashed rgb(255, 120, 228);
+.ice-cream-card {
+    border: 8px dashed rgb(255, 120, 228);
+    margin: 15px 5px;
+    display: flex;
+    max-width: 1500px;
+    padding: 20px;
+    
 }
 
-.icecream__name {
+.img__icecream {
+    width: 400px;
+    margin-right: 100px;
+}
+
+.icecream__title {
+    font-size: 75px;
     font-family: "Happy Monkey";
 }
-
-.icecream__description {
+.icecream__descr {
+    text-align: center;
+    font-size: 50px;
     font-style: italic;
+}
+
+
+/* ################ */
+/* ### C A R T ###  */
+/* ################ */
+
+#container__cart {
+    
 }

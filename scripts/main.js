@@ -7,16 +7,19 @@ document.getElementById('comboButton').addEventListener('click', salesOnClick);
 
 
 
+const cart = []
 
 const cookieHTML = createCookies(database)
-const cookieContainer = document.querySelector('#cookie-card')
+const cookieContainer = document.querySelector('#container__cookies')
 cookieContainer.innerHTML = cookieHTML;
 
 
 const iceCreamHTML = createIceCream(database)
-const iceCreamContainer = document.querySelector('#ice-cream-card')
+const iceCreamContainer = document.querySelector('#container__icecream')
 iceCreamContainer.innerHTML = iceCreamHTML;
 
+const button = document.querySelector("btn")
+button.addEventListener()
 document.getElementById('comboButton').addEventListener('click', () => {
     const randomSaleHTML = salesOnClick();
     document.getElementById('random-sale-container').innerHTML = randomSaleHTML;

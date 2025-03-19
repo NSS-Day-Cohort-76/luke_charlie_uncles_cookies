@@ -5,14 +5,15 @@ export const createCookies = (database) => {
     const sortedCookies = [...database.cookies].sort((a, b) =>
         a.name.localeCompare(b.name)
 );
-    let cookieHTML = '';
+    let cookieHTML = '<h2 id="title__cookies">Cookies</h2>';
     for (let i = 0; i < sortedCookies.length; i++) {
         cookieHTML += `
             <div class= "cookie-card">
-                <img src="${sortedCookies[i].img}" alt="${sortedCookies[i].name}"
-             <div class="cookie-name">
-             ${sortedCookies[i].name}<br>
-             ${sortedCookies[i].description}
+                <img class="img__cookie" src="${sortedCookies[i].img}" alt="${sortedCookies[i].name}">
+             <div class="cookie-info">
+             <span class="cookie__title">${sortedCookies[i].name}</span><br>
+             <span class="cookie__descr">${sortedCookies[i].description}</span><br>
+             <button class="btn">Add To Cart</button>
              </div>
              </div>
              
